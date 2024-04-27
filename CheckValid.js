@@ -1,4 +1,3 @@
-var DELIM_SIZE = 4;
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const value = ( 5 < 7 ) ? "True" : "False" ;
-console.log(typeof typeof 1);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const allResults = await Promise.all(items.map(async (item) => {}));
+const getRandomBoolean = () => Math.random() >= 0.5;
