@@ -1,2 +1,3 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
