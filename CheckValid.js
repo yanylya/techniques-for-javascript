@@ -1,2 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const randomBoolean = () => Math.random() >= 0.5;
