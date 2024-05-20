@@ -1,2 +1,1 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const lastElement = arr => arr[arr.length - 1];
+const result = await makeHttpRequest(url);
