@@ -1,2 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(1 +  +"2" + "2");
