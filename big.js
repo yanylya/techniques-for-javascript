@@ -1,3 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-console.log(+"1" +  "1" + "2");
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const getRandomBoolean = () => Math.random() >= 0.5;
