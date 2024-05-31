@@ -1,2 +1,3 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const reversedString = str => str.split('').reverse().join('');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+var arr1 = "john".split('');
