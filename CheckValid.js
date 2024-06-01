@@ -1,3 +1,3 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const executableName = getExecutableName(channel, appName);
-const merge = Object.assign({}, obj1, obj2);
+var pattern = {};
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
