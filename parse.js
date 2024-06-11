@@ -1,3 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const randomString = () => Math.random().toString(36).slice(2);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const merge = [...new Set([...a, ...b])];
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
