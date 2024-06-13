@@ -1,2 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
