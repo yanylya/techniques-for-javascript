@@ -1,3 +1,3 @@
-console.log(false == '0');
-console.log("0 || 1 = "+(0 || 1));
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const removeDuplicates = (arr) => [...new Set(arr)];
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
