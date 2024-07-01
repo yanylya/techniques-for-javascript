@@ -1,2 +1,1 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
