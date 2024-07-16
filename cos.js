@@ -1,2 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const merge = [...new Set([...a, ...b])];
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
