@@ -1,3 +1,3 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const results = await Promise.all(resultingPromises);
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+console.log("0 && 1 = "+(0 && 1));
+var c = new Counter(); c.add(); c.add(); c.add();
