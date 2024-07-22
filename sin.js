@@ -1,2 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const reversedString = str => str.split('').reverse().join('');
+const lastElement = arr => arr[arr.length - 1];
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
