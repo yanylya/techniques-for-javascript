@@ -1,3 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const results = await Promise.all(resultingPromises);
+const isEmptyArray = arr => !arr.length;
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
