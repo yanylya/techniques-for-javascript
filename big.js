@@ -1,2 +1,3 @@
-var pattern = {};
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+var arr3 = "jones".split('');
+const uniqueArr = (arr) => [...new Set(arr)];
