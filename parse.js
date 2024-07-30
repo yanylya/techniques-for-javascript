@@ -1,1 +1,1 @@
-const minNumber = arr => Math.min(...arr);
+const uniqueArr = (arr) => [...new Set(arr)];
