@@ -1,3 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const uniqueArr = (arr) => [...new Set(arr)];
+const minNumber = arr => Math.min(...arr);
+const isTabInView = () => !document.hidden;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
