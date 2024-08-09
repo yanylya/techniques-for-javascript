@@ -1,3 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const uniqueArray = arr => [...new Set(arr)];
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const maxNumber = arr => Math.max(...arr);
+var c = new Counter(); c.add(); c.add(); c.add();
